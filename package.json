@@ -7,7 +7,9 @@
     "test": "tests"
   },
   "dependencies": {
-    "expo-crypto": "^12.4.1"
+    "expo-crypto": "^12.4.1",
+    "http": "^0.0.1-security",
+    "react-native-http": "^0.0.3"
   },
   "devDependencies": {
     "mocha": "~1.8.2"
