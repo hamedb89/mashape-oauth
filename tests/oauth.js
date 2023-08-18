@@ -1,6 +1,6 @@
 var assert = require('assert'),
     events = require('events'),
-    crypto = require('crypto'),
+    crypto = require('expo-crypto'),
     OAuth = require('../lib/oauth');
 
 var FakeResponse = function (status) { this.statusCode = status; this.headers = {}; };
